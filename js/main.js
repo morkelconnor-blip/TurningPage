@@ -10,7 +10,7 @@ if (typeof KG_COLLECTED === 'number') {
   band.innerHTML =
     '<div class="wrap">' +
     '<p class="tally-num"><span class="tally-count">0</span>&nbsp;kg</p>' +
-    '<p class="tally-label">of surplus paper collected so far</p>' +
+    '<p class="tally-label">of paper collected so far</p>' +
     '</div>';
   document.getElementById('story').insertAdjacentElement('afterend', band);
 
