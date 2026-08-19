@@ -50,11 +50,10 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 // Photo slots: show the image only once it actually loads, otherwise
 // the styled "Photo coming soon" placeholder stays visible.
+// A detached probe is used because some browsers (Safari) never fetch
+// an image that is hidden, so its own load event would never fire.
 document.querySelectorAll('.photo-slot img').forEach(img => {
-  const show = () => img.closest('.photo-slot').classList.add('has-photo');
-  if (img.complete && img.naturalWidth > 0) {
-    show();
-  } else {
-    img.addEventListener('load', show);
-  }
+  const probe = new Image();
+  probe.onload = () => img.closest('.photo-slot').classList.add('has-photo');
+  probe.src = img.currentSrc || img.src;
 });
