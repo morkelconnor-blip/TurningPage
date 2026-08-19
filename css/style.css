@@ -353,6 +353,24 @@ h2{font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:700;margin-bottom:18px}
   .contact-email{font-size:0.98rem;padding:13px 16px}
 }
 
+/* ---------- Partners ---------- */
+.partners{
+  background:var(--paper-deep);
+  border-top:1px solid var(--rule-blue);
+  padding:56px 24px;
+}
+.partners-row{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:28px;
+}
+@media(max-width:680px){.partners-row{grid-template-columns:1fr}}
+.partner-tile{
+  background:#fff;border:1.5px solid var(--ink);border-radius:8px;
+  box-shadow:4px 4px 0 var(--school-blue);
+  padding:24px 28px;display:flex;align-items:center;justify-content:center;
+  min-height:110px;
+}
+.partner-tile img{max-height:56px;width:auto;max-width:100%}
+
 /* ---------- Footer ---------- */
 footer{
   border-top:1px solid var(--rule-blue);

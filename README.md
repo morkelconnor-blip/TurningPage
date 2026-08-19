@@ -23,7 +23,7 @@ It is a simple website: no installations, no build tools, no coding software nee
 1. Open `index.html` in any text editor (TextEdit, Notepad, VS Code).
 2. Every part of the page is marked with a comment like this:
    `<!-- SECTION: story -->`
-   Search for the section you want: `nav`, `hero`, `story`, `programmes`, `impact strip`, `accept`, `how it works`, `road ahead`, `contact`, `footer`.
+   Search for the section you want: `nav`, `hero`, `story`, `programmes`, `impact strip`, `accept`, `how it works`, `road ahead`, `contact`, `partners`, `footer`.
 3. Change only the text between tags. For example, in
    `<p>Email us with roughly what you have.</p>`
    change the words, but keep the `<p>` and `</p>`.
@@ -40,6 +40,8 @@ The Our story section shows a portrait photo. To change it, replace this file (k
 | Our story section (portrait) | `assets/img/story.jpg` | around 900 × 1200 pixels |
 
 That's it — no code changes. If the file is ever missing, a "Photo coming soon" placeholder shows automatically.
+
+**Partner logos** live in `assets/img/` too (`gerber-paper-logo.png`, `papercor-logo.jpg`, `tandym-logo.png`). To add another partner, copy one of the `partner-tile` blocks in the `partners` section of `index.html` and point it at the new logo file.
 
 **Important:** never use photos of learners or anything showing school-internal details without written permission.
 
