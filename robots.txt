@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://turningpages.co.za/sitemap.xml
