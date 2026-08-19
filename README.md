@@ -1,6 +1,6 @@
-# Turning Pages — website
+# Turning Page — website
 
-This is the website for **Turning Pages**, a student-run education initiative in Cape Town.
+This is the website for **Turning Page**, a student-run education initiative in Cape Town.
 
 It is a simple website: no installations, no build tools, no coding software needed. Every change is made by editing a text file and saving it.
 
@@ -73,13 +73,13 @@ The site is designed for **Cloudflare Pages** — free, fast in South Africa, an
 
 ### Custom domain
 
-1. Check if `turningpages.co.za` is available (any .za registrar, e.g. domains.co.za). Fallback: `turningpages.org.za`.
+1. Check if `turningpage.co.za` is available (any .za registrar, e.g. domains.co.za). Fallback: `turningpage.org.za`.
 2. Add the domain to Cloudflare (free plan), then in your Pages project go to **Custom domains → Set up a custom domain** and follow the prompts — Cloudflare fills in the DNS records for you.
-3. Later, Cloudflare **Email Routing** (free) can forward a `hello@turningpages.co.za` address to the Gmail inbox — set it up under Email → Email Routing.
+3. Later, Cloudflare **Email Routing** (free) can forward a `hello@turningpage.co.za` address to the Gmail inbox — set it up under Email → Email Routing.
 
 ### After the site is live — one small find-and-replace
 
-`index.html`, `robots.txt` and `sitemap.xml` contain the placeholder address `https://turningpages.co.za`. Once the real domain is confirmed, find-and-replace it with the live address in those three files.
+`index.html`, `robots.txt` and `sitemap.xml` contain the placeholder address `https://turningpage.co.za`. Once the real domain is confirmed, find-and-replace it with the live address in those three files.
 
 ### Visitor stats (optional)
 
