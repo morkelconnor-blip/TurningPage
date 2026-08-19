@@ -249,8 +249,6 @@ h2{font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:700;margin-bottom:18px}
   border-bottom:1px solid var(--rule-blue);
   padding:48px 24px;
 }
-.impact-strip-intro{color:var(--ink-soft);max-width:60ch;margin-bottom:28px}
-.impact-strip-intro strong{color:var(--ink)}
 .impact-points{
   display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
   list-style:none;
