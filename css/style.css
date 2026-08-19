@@ -239,9 +239,6 @@ h2{font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:700;margin-bottom:18px}
 }
 .photo-portrait{box-shadow:6px 6px 0 var(--margin-red);margin-top:36px}
 .photo-portrait .photo-frame{aspect-ratio:4/5}
-.photo-wide{box-shadow:6px 6px 0 var(--school-blue-deep);margin-top:36px}
-.photo-wide .photo-frame{aspect-ratio:5/2}
-@media(max-width:680px){.photo-wide .photo-frame{aspect-ratio:16/10}}
 
 /* ---------- Impact strip ---------- */
 .impact-strip{

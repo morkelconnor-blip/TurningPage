@@ -33,14 +33,13 @@ It is a simple website: no installations, no build tools, no coding software nee
 
 ## 2. How to add photos
 
-Photos are optional — the site looks complete without them. To add one, just drop a file into `assets/img/` with **exactly** this name:
+The Our story section shows a portrait photo. To change it, replace this file (keeping the same name):
 
 | Where it appears | Filename | Best size |
 |---|---|---|
-| Our story section (portrait) | `assets/img/story.jpg` | 800 × 1000 pixels |
-| Under the three programme cards (wide) | `assets/img/programmes.jpg` | 1600 × 640 pixels |
+| Our story section (portrait) | `assets/img/story.jpg` | around 900 × 1200 pixels |
 
-That's it — no code changes. The "Photo coming soon" placeholder disappears automatically once the file is there.
+That's it — no code changes. If the file is ever missing, a "Photo coming soon" placeholder shows automatically.
 
 **Important:** never use photos of learners or anything showing school-internal details without written permission.
 
