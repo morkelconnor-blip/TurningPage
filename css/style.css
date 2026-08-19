@@ -5,12 +5,19 @@
   --ink-soft:#4A5060;
   --rule-blue:#B9CFE8;
   --margin-red:#D95B4E;
+  --margin-red-text:#BE4437; /* darker variant for small text — AA on --paper and --paper-deep */
   --school-blue:#2E5FA3;
   --school-blue-deep:#1F4478;
   --line-gap:34px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
+.skip-link{
+  position:absolute;left:-9999px;top:0;z-index:100;
+  background:var(--ink);color:var(--paper);font-weight:600;
+  padding:10px 18px;border-radius:0 0 8px 0;text-decoration:none;
+}
+.skip-link:focus{left:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
 body{
   font-family:'Instrument Sans',system-ui,sans-serif;
   background:var(--paper);
@@ -79,7 +86,7 @@ nav{
 }
 .hero-eyebrow{
   display:inline-block;font-size:0.8rem;font-weight:600;letter-spacing:0.12em;
-  text-transform:uppercase;color:var(--margin-red);margin-bottom:14px;
+  text-transform:uppercase;color:var(--margin-red-text);margin-bottom:14px;
 }
 .hero h1{
   font-size:clamp(2.4rem,6vw,4.4rem);font-weight:750;max-width:15ch;
@@ -105,7 +112,7 @@ section{padding:72px 24px}
 .wrap{max-width:1080px;margin:0 auto}
 .eyebrow{
   font-size:0.78rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;
-  color:var(--margin-red);margin-bottom:10px;
+  color:var(--margin-red-text);margin-bottom:10px;
 }
 h2{font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:700;margin-bottom:18px}
 
@@ -155,7 +162,7 @@ h2{font-size:clamp(1.7rem,3.5vw,2.4rem);font-weight:700;margin-bottom:18px}
 .programme-quote{
   margin-top:auto;padding:12px 0 0;
   border-top:1px solid rgba(255,255,255,0.18);
-  font-size:0.92rem;font-style:italic;color:#FFD9A8;
+  font-size:0.92rem;font-style:italic;color:#FFE6C4;
 }
 
 /* ---------- Photo slots ---------- */
